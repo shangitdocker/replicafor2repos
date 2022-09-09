@@ -1,0 +1,3 @@
+2022/08/02-18:42:13.367 798 Creating DB C:\Provar-Copado in Docker\.provarCaches\.chromeProfiles\profile0\Default\IndexedDB\https_liberty-12f-dev-ed.lightning.force.com_0.indexeddb.leveldb since it was missing.
+2022/08/02-18:42:13.378 798 Reusing MANIFEST C:\Provar-Copado in Docker\.provarCaches\.chromeProfiles\profile0\Default\IndexedDB\https_liberty-12f-dev-ed.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/02-18:42:22.470 39b4 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

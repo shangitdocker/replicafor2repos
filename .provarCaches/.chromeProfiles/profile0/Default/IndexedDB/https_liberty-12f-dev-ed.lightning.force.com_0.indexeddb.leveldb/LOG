@@ -1,0 +1,6 @@
+2022/08/02-18:43:59.182 2a08 Reusing MANIFEST C:\Provar-Copado in Docker\.provarCaches\.chromeProfiles\profile0\Default\IndexedDB\https_liberty-12f-dev-ed.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/02-18:43:59.183 2a08 Recovering log #3
+2022/08/02-18:43:59.191 2a08 Reusing old log C:\Provar-Copado in Docker\.provarCaches\.chromeProfiles\profile0\Default\IndexedDB\https_liberty-12f-dev-ed.lightning.force.com_0.indexeddb.leveldb/000003.log 
+2022/08/02-18:44:09.073 3f34 Level-0 table #5: started
+2022/08/02-18:44:09.113 3f34 Level-0 table #5: 2116578 bytes OK
+2022/08/02-18:44:09.124 3f34 Delete type=0 #3

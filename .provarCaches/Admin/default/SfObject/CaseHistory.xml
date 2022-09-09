@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObject label="Case History" labelPlural="Case History" n="CaseHistory" queryable="true" retrieveable="true" s="" t="Case History">
+  <fields>
+    <sfField createable="false" editPermission="false" length="18" n="Id" t="Case History ID" type="id" updateable="false"/>
+    <sfField createable="false" editPermission="false" n="IsDeleted" t="Deleted" type="_boolean" updateable="false"/>
+    <sfField createable="false" editPermission="false" length="18" n="CaseId" relationshipName="Case" required="true" t="Case" type="reference" updateable="false">
+      <referenceTos>
+        <string>Case</string>
+      </referenceTos>
+    </sfField>
+    <sfField createable="false" editPermission="false" length="18" n="CreatedById" relationshipName="CreatedBy" t="User" type="reference" updateable="false">
+      <referenceTos>
+        <string>User</string>
+      </referenceTos>
+    </sfField>
+    <sfField createable="false" editPermission="false" n="CreatedDate" t="Date" type="datetime" updateable="false"/>
+    <sfField createable="false" editPermission="false" length="255" n="Field" required="true" restrictedPicklist="true" type="picklist" updateable="false">
+      <picklistEntryIds>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35</picklistEntryIds>
+      <picklistEntries>
+        <sfPLE id="1" n="Account" s="" t="Account Name"/>
+        <sfPLE id="2" n="Asset" s=""/>
+        <sfPLE id="3" n="BusinessHours" s="" t="Business Hours"/>
+        <sfPLE id="4" n="caseMerged" s="" t="Case Merged"/>
+        <sfPLE id="5" n="Origin" s="" t="Case Origin"/>
+        <sfPLE id="6" n="Owner" s="" t="Case Owner"/>
+        <sfPLE id="7" n="Reason" s="" t="Case Reason"/>
+        <sfPLE id="8" n="Source" s="" t="Case Source"/>
+        <sfPLE id="9" n="closed" s="" t="Closed."/>
+        <sfPLE id="10" n="IsClosedOnCreate" s="" t="Closed When Created"/>
+        <sfPLE id="11" n="Contact" s="" t="Contact Name"/>
+        <sfPLE id="12" n="created" s="" t="Created."/>
+        <sfPLE id="13" n="Description" s=""/>
+        <sfPLE id="14" n="EngineeringReqNumber__c" s="" t="Engineering Req Number"/>
+        <sfPLE id="15" n="Entitlement" s="" t="Entitlement Name"/>
+        <sfPLE id="16" n="SlaStartDate" s="" t="Entitlement Process Start Time"/>
+        <sfPLE id="17" n="IsEscalated" s="" t="Escalated"/>
+        <sfPLE id="18" n="feedEvent" s="" t="Feed event"/>
+        <sfPLE id="19" n="individualMerged" s="" t="Individual Merged"/>
+        <sfPLE id="20" n="ownerAccepted" s="" t="Owner (Accepted)"/>
+        <sfPLE id="21" n="ownerAssignment" s="" t="Owner (Assignment)"/>
+        <sfPLE id="22" n="ownerEscalated" s="" t="Owner (Escalation)"/>
+        <sfPLE id="23" n="Parent" s="" t="Parent Case"/>
+        <sfPLE id="24" n="PotentialLiability__c" s="" t="Potential Liability"/>
+        <sfPLE id="25" n="Priority" s=""/>
+        <sfPLE id="26" n="Product" s=""/>
+        <sfPLE id="27" n="Product__c" s="" t="Product"/>
+        <sfPLE id="28" n="locked" s="" t="Record locked."/>
+        <sfPLE id="29" n="unlocked" s="" t="Record unlocked."/>
+        <sfPLE id="30" n="ServiceContract" s="" t="Service Contract"/>
+        <sfPLE id="31" n="SLAViolation__c" s="" t="SLA Violation"/>
+        <sfPLE id="32" n="Status" s=""/>
+        <sfPLE id="33" n="IsStopped" s="" t="Stopped"/>
+        <sfPLE id="34" n="Subject" s=""/>
+        <sfPLE id="35" n="Type" s=""/>
+      </picklistEntries>
+    </sfField>
+    <sfField createable="false" editPermission="false" length="40" n="DataType" restrictedPicklist="true" t="Variable Data Type" type="picklist" updateable="false">
+      <picklistEntryIds>36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79</picklistEntryIds>
+      <picklistEntries>
+        <sfPLE id="36" n="Address" s=""/>
+        <sfPLE id="37" n="AnyType" s=""/>
+        <sfPLE id="38" n="AutoNumber" s=""/>
+        <sfPLE id="39" n="Base64" s=""/>
+        <sfPLE id="40" n="BitVector" s=""/>
+        <sfPLE id="41" n="Boolean" s=""/>
+        <sfPLE id="42" n="Content" s=""/>
+        <sfPLE id="43" n="Currency" s=""/>
+        <sfPLE id="44" n="DataCategoryGroupReference" s=""/>
+        <sfPLE id="45" n="DateOnly" s=""/>
+        <sfPLE id="46" n="DateTime" s=""/>
+        <sfPLE id="47" n="Division" s=""/>
+        <sfPLE id="48" n="Double" s=""/>
+        <sfPLE id="49" n="DynamicEnum" s=""/>
+        <sfPLE id="50" n="Email" s=""/>
+        <sfPLE id="51" n="EncryptedBase64" s=""/>
+        <sfPLE id="52" n="EncryptedText" s=""/>
+        <sfPLE id="53" n="EntityId" s=""/>
+        <sfPLE id="54" n="EnumOrId" s=""/>
+        <sfPLE id="55" n="ExternalId" s=""/>
+        <sfPLE id="56" n="Fax" s=""/>
+        <sfPLE id="57" n="File" s=""/>
+        <sfPLE id="58" n="HtmlMultiLineText" s=""/>
+        <sfPLE id="59" n="HtmlStringPlusClob" s=""/>
+        <sfPLE id="60" n="InetAddress" s=""/>
+        <sfPLE id="61" n="Json" s=""/>
+        <sfPLE id="62" n="JsonStringPlusClob" s=""/>
+        <sfPLE id="63" n="Location" s=""/>
+        <sfPLE id="64" n="MultiEnum" s=""/>
+        <sfPLE id="65" n="MultiLineText" s=""/>
+        <sfPLE id="66" n="Namespace" s=""/>
+        <sfPLE id="67" n="Percent" s=""/>
+        <sfPLE id="68" n="PersonName" s=""/>
+        <sfPLE id="69" n="Phone" s=""/>
+        <sfPLE id="70" n="Raw" s=""/>
+        <sfPLE id="71" n="RecordType" s=""/>
+        <sfPLE id="72" n="SfdcEncryptedText" s=""/>
+        <sfPLE id="73" n="SimpleNamespace" s=""/>
+        <sfPLE id="74" n="StringPlusClob" s=""/>
+        <sfPLE id="75" n="Switchable_PersonName" s=""/>
+        <sfPLE id="76" n="Text" s=""/>
+        <sfPLE id="77" n="TimeOnly" s=""/>
+        <sfPLE id="78" n="Url" s=""/>
+        <sfPLE id="79" n="YearQuarter" s=""/>
+      </picklistEntries>
+    </sfField>
+    <sfField createable="false" editPermission="false" filterable="false" length="255" n="OldValue" t="Original Value" type="anyType" updateable="false"/>
+    <sfField createable="false" editPermission="false" filterable="false" length="255" n="NewValue" t="New Value" type="anyType" updateable="false"/>
+  </fields>
+  <childRelationships/>
+  <recordTypes/>
+  <standardActions>
+    <sfActionLink modes="ObjectHome Histories List" n="New"/>
+    <sfActionLink modes="View Histories" n="Edit" requiresRow="true" s="2"/>
+    <sfActionLink modes="View Histories" n="Delete" requiresRow="true" s="3"/>
+    <sfActionLink lightningActionName="MassChangeOwner" massAction="true" modes="View List all_related_lists" n="ChangeOwnerOne" t="Change Owner"/>
+    <sfActionLink modes="View Histories" n="ShowMore" t="Show More"/>
+    <sfActionLink modes="View Histories" n="GoToList" t="Go To List"/>
+    <sfActionLink modes="RelatedList" n="PrevPage" t="Previous Page"/>
+    <sfActionLink modes="RelatedList" n="NextPage" t="Next Page"/>
+    <sfActionLink modes="ObjectHome" n="List" requiresRow="true"/>
+    <sfActionLink modes="Edit New Clone" n="save" requiresRow="true" t="Save"/>
+    <sfActionLink modes="Edit New Clone" n="save_new" requiresRow="true" t="Save and New"/>
+    <sfActionLink modes="Edit New Clone" n="cancel" requiresRow="true" t="Cancel"/>
+    <sfActionLink afterWaitUrl="ui:wait:timed?seconds=10" modes="View" n="SaveEdit" t="Save"/>
+    <sfActionLink modes="View" n="CancelEdit" t="Cancel"/>
+    <sfActionLink massAction="true" modes="View List" n="ChangeRecordType" t="Change Record Type"/>
+    <sfActionLink modes="View" n="email" t="Send an Email"/>
+    <sfActionLink modes="View" n="Share"/>
+    <sfActionLink modes="QuickAction" n="publishersharebutton" t="Create"/>
+    <sfActionLink modes="ObjectHome List" n="Sort"/>
+    <sfActionLink modes="ObjectHome List" n="Filter"/>
+    <sfActionLink modes="ObjectHome View" n="Search"/>
+    <sfActionLink modes="ObjectHome List" n="Import"/>
+    <sfActionLink modes="View" n="PrintableView" t="Printable View"/>
+    <sfActionLink n="ObjectHome" requiresRow="true" t="Home"/>
+  </standardActions>
+  <weblinks/>
+</sfObject>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfApp appId="02u8d000001elPfAAI" durableId="06m8d000001elPfAAI" n="Service" packageName="standard" s="" seqNum="1">
+  <children>
+    <sfTab n="standard-home" pageUrl="https://liberty-12f-dev-ed.my.salesforce.com/home/home.jsp" s="" seqNum="0" t="Home">
+      <children>
+        <sfHome n="standard-home" s="" t="Home"/>
+      </children>
+    </sfTab>
+    <sfTab n="standard-Chatter" pageUrl="https://liberty-12f-dev-ed.my.salesforce.com/_ui/core/chatter/ui/ChatterPage" s="" seqNum="1" t="Chatter"/>
+    <sfTab n="standard-Account" pageUrl="https://liberty-12f-dev-ed.my.salesforce.com/001/o" s="" seqNum="2" t="Accounts">
+      <children>
+        <sfObjectReference n="Account" s=""/>
+      </children>
+    </sfTab>
+    <sfTab n="standard-Contact" pageUrl="https://liberty-12f-dev-ed.my.salesforce.com/003/o" s="" seqNum="3" t="Contacts">
+      <children>
+        <sfObjectReference n="Contact" s=""/>
+      </children>
+    </sfTab>
+    <sfTab n="standard-Case" pageUrl="https://liberty-12f-dev-ed.my.salesforce.com/500/o" s="" seqNum="4" t="Cases">
+      <children>
+        <sfObjectReference n="Case" s=""/>
+      </children>
+    </sfTab>
+    <sfTab n="standard-Solution" pageUrl="https://liberty-12f-dev-ed.my.salesforce.com/501/o" s="" seqNum="5" t="Solutions">
+      <children>
+        <sfObjectReference n="Solution" s=""/>
+      </children>
+    </sfTab>
+    <sfTab n="standard-report" pageUrl="https://liberty-12f-dev-ed.my.salesforce.com/00O/o" s="" seqNum="6" t="Reports">
+      <children>
+        <sfObjectReference n="Report" s=""/>
+      </children>
+    </sfTab>
+    <sfTab n="standard-Dashboard" pageUrl="https://liberty-12f-dev-ed.my.salesforce.com/01Z/o" s="" seqNum="7" t="Dashboards">
+      <children>
+        <sfObjectReference n="Dashboard" s=""/>
+      </children>
+    </sfTab>
+  </children>
+</sfApp>
